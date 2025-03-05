@@ -1,5 +1,6 @@
 package com.example.employeemanagementsystemv5.controller;
 
+import com.example.employeemanagementsystemv5.common.exception.EmployeeNotFoundException;
 import com.example.employeemanagementsystemv5.repository.Employees;
 import com.example.employeemanagementsystemv5.service.EmployeeService;
 import org.slf4j.Logger;
@@ -51,9 +52,8 @@ public class EmployeeController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteEmployee(@PathVariable int id) {
+    public ResponseEntity<Void> deleteEmployee(@PathVariable int id) throws EmployeeNotFoundException {
         log.info("deleteEmployee : Controller");
-        employeeService.deleteEmployee(id);
-        return ResponseEntity.noContent().build();
+        return employeeService.deleteEmployee(id);
     }
 }

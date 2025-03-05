@@ -1,10 +1,13 @@
 package com.example.employeemanagementsystemv5.repository;
 
+import com.example.employeemanagementsystemv5.common.exception.EmployeeNotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.dao.DataAccessException;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
@@ -42,14 +45,14 @@ public class EmployeeDAO {
         return entityManager.merge(employee);
     }
 
-    public void deleteById(int id) {
+    public void deleteById(int id) throws EmployeeNotFoundException {
         log.info("deleteById : EmployeeDAO");
         Employees employee = entityManager.find(Employees.class, id);
         if (employee != null) {
             entityManager.remove(employee);
         }  else {
-            log.info("Employee with id {} not found", id);
-            log.debug("Employee with id {} not found", id);
+            log.error("Employee with id {} not found", id);
+            throw new EmployeeNotFoundException();
         }
     }
 }
