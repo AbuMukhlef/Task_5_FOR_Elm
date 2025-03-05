@@ -509,3 +509,25 @@ com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> Emplo
  deleteById 
 com.example.employeemanagementsystemv5.service.EmployeeService : ERROR >>>> deleteEmployee : employee of ID 7 not found :: 2025-03-05 12:30:36,330 
  deleteEmployee 
+com.zaxxer.hikari.pool.HikariPool : WARN >>>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=30m1s114ms). :: 2025-03-05 13:04:34,540 
+ run 
+com.zaxxer.hikari.pool.HikariPool : WARN >>>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h4m34s869ms). :: 2025-03-05 14:09:09,409 
+ run 
+com.zaxxer.hikari.pool.HikariPool : WARN >>>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h16m42s970ms). :: 2025-03-05 15:25:52,379 
+ run 
+com.zaxxer.hikari.pool.HikariPool : WARN >>>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h11m41s7ms). :: 2025-03-05 16:37:33,386 
+ run 
+com.zaxxer.hikari.pool.HikariPool : WARN >>>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h17m16s957ms). :: 2025-03-05 17:54:50,343 
+ run 
+com.zaxxer.hikari.pool.HikariPool : WARN >>>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m23s628ms). :: 2025-03-05 18:28:13,971 
+ run 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Commencing graceful shutdown. Waiting for active requests to complete :: 2025-03-05 18:30:06,310 
+ shutDownGracefully 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Graceful shutdown complete :: 2025-03-05 18:30:06,314 
+ doShutdown 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Closing JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-05 18:30:06,317 
+ destroy 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated... :: 2025-03-05 18:30:06,318 
+ close 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-05 18:30:06,318 
+ close 
