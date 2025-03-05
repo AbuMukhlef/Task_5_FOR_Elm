@@ -117,3 +117,249 @@ com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated
  close 
 com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-05 10:28:13,139 
  close 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Starting EmployeeManagementSystemV5Application using Java 23.0.2 with PID 5381 (/Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm/target/classes started by abu_mukhlef in /Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm) :: 2025-03-05 11:18:29,469 
+ logStarting 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> No active profile set, falling back to 1 default profile: "default" :: 2025-03-05 11:18:29,470 
+ logStartupProfileInfo 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Bootstrapping Spring Data JPA repositories in DEFAULT mode. :: 2025-03-05 11:18:29,633 
+ registerRepositoriesIn 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces. :: 2025-03-05 11:18:29,639 
+ registerRepositoriesIn 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat initialized with port 8080 (http) :: 2025-03-05 11:18:29,775 
+ initialize 
+org.apache.catalina.core.StandardService : INFO >>>> Starting service [Tomcat] :: 2025-03-05 11:18:29,782 
+ log 
+org.apache.catalina.core.StandardEngine : INFO >>>> Starting Servlet engine: [Apache Tomcat/10.1.36] :: 2025-03-05 11:18:29,782 
+ log 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring embedded WebApplicationContext :: 2025-03-05 11:18:29,793 
+ log 
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO >>>> Root WebApplicationContext: initialization completed in 308 ms :: 2025-03-05 11:18:29,793 
+ prepareWebApplicationContext 
+org.hibernate.jpa.internal.util.LogHelper : INFO >>>> HHH000204: Processing PersistenceUnitInfo [name: default] :: 2025-03-05 11:18:29,824 
+ logPersistenceUnitInformation 
+org.hibernate.Version : INFO >>>> HHH000412: Hibernate ORM core version 6.6.8.Final :: 2025-03-05 11:18:29,835 
+ logVersion 
+org.hibernate.cache.internal.RegionFactoryInitiator : INFO >>>> HHH000026: Second-level cache disabled :: 2025-03-05 11:18:29,842 
+ initiateService 
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO >>>> No LoadTimeWeaver setup: ignoring JPA class transformer :: 2025-03-05 11:18:29,920 
+ addTransformer 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Starting... :: 2025-03-05 11:18:29,928 
+ getConnection 
+com.zaxxer.hikari.pool.HikariPool : INFO >>>> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2712e8f4 :: 2025-03-05 11:18:29,953 
+ checkFailFast 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Start completed. :: 2025-03-05 11:18:29,953 
+ getConnection 
+org.hibernate.orm.connections.pooling : INFO >>>> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown :: 2025-03-05 11:18:29,977 
+ initiateService 
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO >>>> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) :: 2025-03-05 11:18:30,186 
+ initiateService 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Initialized JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-05 11:18:30,187 
+ buildNativeEntityManagerFactory 
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN >>>> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning :: 2025-03-05 11:18:30,217 
+ openEntityManagerInViewInterceptor 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat started on port 8080 (http) with context path '/' :: 2025-03-05 11:18:30,319 
+ start 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Started EmployeeManagementSystemV5Application in 0.966 seconds (process running for 1.145) :: 2025-03-05 11:18:30,322 
+ logStarted 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring DispatcherServlet 'dispatcherServlet' :: 2025-03-05 11:18:39,223 
+ log 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Initializing Servlet 'dispatcherServlet' :: 2025-03-05 11:18:39,223 
+ initServletBean 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Completed initialization in 1 ms :: 2025-03-05 11:18:39,224 
+ initServletBean 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getAllEmployees : Controller :: 2025-03-05 11:18:39,249 
+ getAllEmployees 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findAllEmployees : Service :: 2025-03-05 11:18:39,249 
+ findAllEmployees 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findAllEmployees : EmployeeDAO :: 2025-03-05 11:18:39,252 
+ findAll 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findAllEmployees : EmployeeDAO :: 2025-03-05 11:18:39,252 
+ findAll 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-05 11:18:47,652 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-05 11:18:47,653 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-05 11:18:47,655 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-05 11:18:47,655 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-05 11:19:25,757 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-05 11:19:25,758 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-05 11:19:25,759 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-05 11:19:25,760 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-05 11:19:32,648 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-05 11:19:32,649 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-05 11:19:32,650 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-05 11:19:32,651 
+ findById 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Commencing graceful shutdown. Waiting for active requests to complete :: 2025-03-05 11:19:53,710 
+ shutDownGracefully 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Graceful shutdown complete :: 2025-03-05 11:19:53,714 
+ doShutdown 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Closing JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-05 11:19:53,716 
+ destroy 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated... :: 2025-03-05 11:19:53,717 
+ close 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-05 11:19:53,718 
+ close 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Starting EmployeeManagementSystemV5Application using Java 23.0.2 with PID 5504 (/Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm/target/classes started by abu_mukhlef in /Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm) :: 2025-03-05 11:22:59,281 
+ logStarting 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> No active profile set, falling back to 1 default profile: "default" :: 2025-03-05 11:22:59,281 
+ logStartupProfileInfo 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Bootstrapping Spring Data JPA repositories in DEFAULT mode. :: 2025-03-05 11:22:59,444 
+ registerRepositoriesIn 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces. :: 2025-03-05 11:22:59,449 
+ registerRepositoriesIn 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat initialized with port 8080 (http) :: 2025-03-05 11:22:59,587 
+ initialize 
+org.apache.catalina.core.StandardService : INFO >>>> Starting service [Tomcat] :: 2025-03-05 11:22:59,591 
+ log 
+org.apache.catalina.core.StandardEngine : INFO >>>> Starting Servlet engine: [Apache Tomcat/10.1.36] :: 2025-03-05 11:22:59,591 
+ log 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring embedded WebApplicationContext :: 2025-03-05 11:22:59,602 
+ log 
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO >>>> Root WebApplicationContext: initialization completed in 307 ms :: 2025-03-05 11:22:59,603 
+ prepareWebApplicationContext 
+org.hibernate.jpa.internal.util.LogHelper : INFO >>>> HHH000204: Processing PersistenceUnitInfo [name: default] :: 2025-03-05 11:22:59,633 
+ logPersistenceUnitInformation 
+org.hibernate.Version : INFO >>>> HHH000412: Hibernate ORM core version 6.6.8.Final :: 2025-03-05 11:22:59,643 
+ logVersion 
+org.hibernate.cache.internal.RegionFactoryInitiator : INFO >>>> HHH000026: Second-level cache disabled :: 2025-03-05 11:22:59,651 
+ initiateService 
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO >>>> No LoadTimeWeaver setup: ignoring JPA class transformer :: 2025-03-05 11:22:59,732 
+ addTransformer 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Starting... :: 2025-03-05 11:22:59,740 
+ getConnection 
+com.zaxxer.hikari.pool.HikariPool : INFO >>>> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57416e49 :: 2025-03-05 11:22:59,766 
+ checkFailFast 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Start completed. :: 2025-03-05 11:22:59,767 
+ getConnection 
+org.hibernate.orm.connections.pooling : INFO >>>> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown :: 2025-03-05 11:22:59,791 
+ initiateService 
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO >>>> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) :: 2025-03-05 11:23:00,011 
+ initiateService 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Initialized JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-05 11:23:00,012 
+ buildNativeEntityManagerFactory 
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN >>>> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning :: 2025-03-05 11:23:00,051 
+ openEntityManagerInViewInterceptor 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat started on port 8080 (http) with context path '/' :: 2025-03-05 11:23:00,160 
+ start 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Started EmployeeManagementSystemV5Application in 1.003 seconds (process running for 1.18) :: 2025-03-05 11:23:00,163 
+ logStarted 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring DispatcherServlet 'dispatcherServlet' :: 2025-03-05 11:23:24,761 
+ log 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Initializing Servlet 'dispatcherServlet' :: 2025-03-05 11:23:24,761 
+ initServletBean 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Completed initialization in 1 ms :: 2025-03-05 11:23:24,762 
+ initServletBean 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getAllEmployees : Controller :: 2025-03-05 11:23:24,793 
+ getAllEmployees 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findAllEmployees : Service :: 2025-03-05 11:23:24,793 
+ findAllEmployees 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findAllEmployees : EmployeeDAO :: 2025-03-05 11:23:24,796 
+ findAll 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findAllEmployees : EmployeeDAO :: 2025-03-05 11:23:24,796 
+ findAll 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-05 11:23:30,543 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-05 11:23:30,544 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-05 11:23:30,545 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-05 11:23:30,546 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-05 11:23:35,682 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-05 11:23:35,683 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-05 11:23:35,684 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-05 11:23:35,685 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-05 11:23:41,740 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> saveEmployee : Service :: 2025-03-05 11:23:41,740 
+ saveEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> saveEmployee : EmployeeDAO :: 2025-03-05 11:23:41,741 
+ save 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> saveEmployee : EmployeeDAO :: 2025-03-05 11:23:41,741 
+ save 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-05 11:23:46,921 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> updateEmployee : Service :: 2025-03-05 11:23:46,922 
+ updateEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> updateEmployee : EmployeeDAO :: 2025-03-05 11:23:46,924 
+ update 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> updateEmployee : EmployeeDAO :: 2025-03-05 11:23:46,925 
+ update 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-05 11:23:51,724 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> updateEmployee : Service :: 2025-03-05 11:23:51,725 
+ updateEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> updateEmployee : EmployeeDAO :: 2025-03-05 11:23:51,726 
+ update 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> updateEmployee : EmployeeDAO :: 2025-03-05 11:23:51,726 
+ update 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-05 11:23:55,465 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> updateEmployee : Service :: 2025-03-05 11:23:55,465 
+ updateEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> updateEmployee : EmployeeDAO :: 2025-03-05 11:23:55,467 
+ update 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> updateEmployee : EmployeeDAO :: 2025-03-05 11:23:55,467 
+ update 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-05 11:24:17,148 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> updateEmployee : Service :: 2025-03-05 11:24:17,149 
+ updateEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> updateEmployee : EmployeeDAO :: 2025-03-05 11:24:17,150 
+ update 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> updateEmployee : EmployeeDAO :: 2025-03-05 11:24:17,151 
+ update 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> deleteEmployee : Controller :: 2025-03-05 11:24:39,371 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> deleteEmployee : Service :: 2025-03-05 11:24:39,372 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> deleteById : EmployeeDAO :: 2025-03-05 11:24:39,373 
+ deleteById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> Employee with id 1 not found :: 2025-03-05 11:24:39,376 
+ deleteById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> Employee with id 1 not found :: 2025-03-05 11:24:39,377 
+ deleteById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> deleteEmployee : Controller :: 2025-03-05 11:24:46,688 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> deleteEmployee : Service :: 2025-03-05 11:24:46,689 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> deleteById : EmployeeDAO :: 2025-03-05 11:24:46,691 
+ deleteById 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Commencing graceful shutdown. Waiting for active requests to complete :: 2025-03-05 11:24:58,713 
+ shutDownGracefully 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Graceful shutdown complete :: 2025-03-05 11:24:58,717 
+ doShutdown 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Closing JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-05 11:24:58,719 
+ destroy 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated... :: 2025-03-05 11:24:58,719 
+ close 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-05 11:24:58,720 
+ close 
