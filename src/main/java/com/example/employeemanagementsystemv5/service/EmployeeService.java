@@ -12,6 +12,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 import java.util.Set;
 
@@ -37,20 +38,24 @@ public class EmployeeService {
         return employeeDAO.findById(id);
     }
 
-    public Employees saveEmployee(Employees employee) {
+    public ResponseEntity<?> saveEmployee(Employees employee) {
         log.info("saveEmployee : Service");
         Set<ValidationMessage> errors = jsonSchemaValidator.validate(employee);
 
         if (!errors.isEmpty()) {
-            throw new IllegalArgumentException("Invalid Employee Data: " + errors);
+            log.error("Invalid Employee Data: Line 45");
+            return ResponseEntity.badRequest().body(
+                    Map.of("error", "Invalid Employee Data", "details", errors)
+            );
         }
 
-        return employeeDAO.save(employee);
-//        log.info("updateEmployee : Service");
+        Employees savedEmployee = employeeDAO.save(employee);
+        return ResponseEntity.ok(savedEmployee);
     }
 
 
     public Employees updateEmployee(int id, Employees updatedEmployee) {
+        log.info("updateEmployee : Service");
         Set<ValidationMessage> errors = jsonSchemaValidator.validate(updatedEmployee);
 
         if (!errors.isEmpty()) {
