@@ -13,7 +13,7 @@
     },
     "gender": {
       "type": "string",
-      "enum": ["Male", "Female", "Other"],
+      "enum": ["Male", "Female"],
       "description": "Gender of the employee."
     },
     "dob": {
