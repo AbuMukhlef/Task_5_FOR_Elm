@@ -41,10 +41,10 @@ public class EmployeeController {
     }
 
     @PutMapping("/{id}")
-    public ResponseEntity<Employees> updateEmployee(@PathVariable int id, @RequestBody Employees updatedEmployee) {
+    public ResponseEntity<?> updateEmployee(@PathVariable int id, @RequestBody Employees updatedEmployee) {
         log.info("updateEmployee : Controller");
         try {
-            Employees employee = employeeService.updateEmployee(id, updatedEmployee);
+            ResponseEntity<?> employee = employeeService.updateEmployee(id, updatedEmployee);
             return ResponseEntity.ok(employee);
         } catch (RuntimeException e) {
             return ResponseEntity.notFound().build();

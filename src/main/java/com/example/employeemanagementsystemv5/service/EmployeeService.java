@@ -54,12 +54,14 @@ public class EmployeeService {
     }
 
 
-    public Employees updateEmployee(int id, Employees updatedEmployee) {
+    public ResponseEntity<?> updateEmployee(int id, Employees updatedEmployee) {
         log.info("updateEmployee : Service");
         Set<ValidationMessage> errors = jsonSchemaValidator.validate(updatedEmployee);
 
         if (!errors.isEmpty()) {
-            throw new IllegalArgumentException("Invalid Employee Data: " + errors);
+            return ResponseEntity.badRequest().body(
+                    Map.of("error", "Invalid Employee Data", "details", errors)
+            );
         }
 
         Optional<Employees> existingEmployee = employeeDAO.findById(id);
@@ -73,7 +75,9 @@ public class EmployeeService {
         }
 
         updatedEmployee.setId(id);
-        return employeeDAO.update(updatedEmployee);
+        Employees updated = employeeDAO.update(updatedEmployee);
+
+        return ResponseEntity.ok(updated);
     }
 
 
