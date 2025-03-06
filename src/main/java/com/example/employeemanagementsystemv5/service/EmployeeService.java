@@ -46,11 +46,11 @@ public class EmployeeService {
         }
 
         return employeeDAO.save(employee);
+//        log.info("updateEmployee : Service");
     }
 
 
     public Employees updateEmployee(int id, Employees updatedEmployee) {
-        log.info("updateEmployee : Service");
         Set<ValidationMessage> errors = jsonSchemaValidator.validate(updatedEmployee);
 
         if (!errors.isEmpty()) {
