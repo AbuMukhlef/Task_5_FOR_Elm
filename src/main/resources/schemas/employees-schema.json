@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Employees",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "description": "Unique identifier for the employee."
+    },
+    "name": {
+      "type": "string",
+      "description": "Full name of the employee."
+    },
+    "gender": {
+      "type": "string",
+      "enum": ["Male", "Female", "Other"],
+      "description": "Gender of the employee."
+    },
+    "dob": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of birth of the employee (YYYY-MM-DD)."
+    },
+    "phoneNumber": {
+      "type": ["string", "null"],
+      "pattern": "^[0-9\\-\\+]{9,15}$",
+      "description": "Phone number of the employee, optional field."
+    },
+    "hobbies": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "string"
+      },
+      "description": "List of hobbies, optional field."
+    }
+  },
+  "required": ["id", "name", "gender", "dob"]
+}

@@ -1,13 +1,11 @@
 package com.example.employeemanagementsystemv5.repository;
 
-import com.example.employeemanagementsystemv5.common.exception.EmployeeNotFoundException;
+import com.example.employeemanagementsystemv5.common.EmployeeNotFoundException;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.transaction.Transactional;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.dao.DataAccessException;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;

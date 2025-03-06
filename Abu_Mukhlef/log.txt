@@ -531,3 +531,805 @@ com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated
  close 
 com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-05 18:30:06,318 
  close 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Starting EmployeeManagementSystemV5Application using Java 23.0.2 with PID 6139 (/Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm/target/classes started by abu_mukhlef in /Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm) :: 2025-03-06 10:57:17,197 
+ logStarting 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> No active profile set, falling back to 1 default profile: "default" :: 2025-03-06 10:57:17,198 
+ logStartupProfileInfo 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Bootstrapping Spring Data JPA repositories in DEFAULT mode. :: 2025-03-06 10:57:17,366 
+ registerRepositoriesIn 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces. :: 2025-03-06 10:57:17,372 
+ registerRepositoriesIn 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat initialized with port 8080 (http) :: 2025-03-06 10:57:17,513 
+ initialize 
+org.apache.catalina.core.StandardService : INFO >>>> Starting service [Tomcat] :: 2025-03-06 10:57:17,517 
+ log 
+org.apache.catalina.core.StandardEngine : INFO >>>> Starting Servlet engine: [Apache Tomcat/10.1.36] :: 2025-03-06 10:57:17,517 
+ log 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring embedded WebApplicationContext :: 2025-03-06 10:57:17,528 
+ log 
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO >>>> Root WebApplicationContext: initialization completed in 316 ms :: 2025-03-06 10:57:17,528 
+ prepareWebApplicationContext 
+org.hibernate.jpa.internal.util.LogHelper : INFO >>>> HHH000204: Processing PersistenceUnitInfo [name: default] :: 2025-03-06 10:57:17,559 
+ logPersistenceUnitInformation 
+org.hibernate.Version : INFO >>>> HHH000412: Hibernate ORM core version 6.6.8.Final :: 2025-03-06 10:57:17,574 
+ logVersion 
+org.hibernate.cache.internal.RegionFactoryInitiator : INFO >>>> HHH000026: Second-level cache disabled :: 2025-03-06 10:57:17,582 
+ initiateService 
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO >>>> No LoadTimeWeaver setup: ignoring JPA class transformer :: 2025-03-06 10:57:17,666 
+ addTransformer 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Starting... :: 2025-03-06 10:57:17,673 
+ getConnection 
+com.zaxxer.hikari.pool.HikariPool : INFO >>>> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54b44879 :: 2025-03-06 10:57:17,699 
+ checkFailFast 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Start completed. :: 2025-03-06 10:57:17,700 
+ getConnection 
+org.hibernate.orm.connections.pooling : INFO >>>> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown :: 2025-03-06 10:57:17,728 
+ initiateService 
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO >>>> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) :: 2025-03-06 10:57:17,958 
+ initiateService 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Initialized JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 10:57:17,959 
+ buildNativeEntityManagerFactory 
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN >>>> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning :: 2025-03-06 10:57:17,996 
+ openEntityManagerInViewInterceptor 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat started on port 8080 (http) with context path '/' :: 2025-03-06 10:57:18,106 
+ start 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Started EmployeeManagementSystemV5Application in 1.033 seconds (process running for 1.222) :: 2025-03-06 10:57:18,109 
+ logStarted 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Commencing graceful shutdown. Waiting for active requests to complete :: 2025-03-06 10:57:45,025 
+ shutDownGracefully 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Graceful shutdown complete :: 2025-03-06 10:57:45,029 
+ doShutdown 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Closing JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 10:57:45,031 
+ destroy 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated... :: 2025-03-06 10:57:45,031 
+ close 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-06 10:57:45,032 
+ close 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Starting EmployeeManagementSystemV5Application using Java 23.0.2 with PID 6362 (/Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm/target/classes started by abu_mukhlef in /Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm) :: 2025-03-06 11:07:43,250 
+ logStarting 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> No active profile set, falling back to 1 default profile: "default" :: 2025-03-06 11:07:43,250 
+ logStartupProfileInfo 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Bootstrapping Spring Data JPA repositories in DEFAULT mode. :: 2025-03-06 11:07:43,428 
+ registerRepositoriesIn 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces. :: 2025-03-06 11:07:43,434 
+ registerRepositoriesIn 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat initialized with port 8080 (http) :: 2025-03-06 11:07:43,578 
+ initialize 
+org.apache.catalina.core.StandardService : INFO >>>> Starting service [Tomcat] :: 2025-03-06 11:07:43,582 
+ log 
+org.apache.catalina.core.StandardEngine : INFO >>>> Starting Servlet engine: [Apache Tomcat/10.1.36] :: 2025-03-06 11:07:43,583 
+ log 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring embedded WebApplicationContext :: 2025-03-06 11:07:43,594 
+ log 
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO >>>> Root WebApplicationContext: initialization completed in 329 ms :: 2025-03-06 11:07:43,594 
+ prepareWebApplicationContext 
+org.hibernate.jpa.internal.util.LogHelper : INFO >>>> HHH000204: Processing PersistenceUnitInfo [name: default] :: 2025-03-06 11:07:43,626 
+ logPersistenceUnitInformation 
+org.hibernate.Version : INFO >>>> HHH000412: Hibernate ORM core version 6.6.8.Final :: 2025-03-06 11:07:43,640 
+ logVersion 
+org.hibernate.cache.internal.RegionFactoryInitiator : INFO >>>> HHH000026: Second-level cache disabled :: 2025-03-06 11:07:43,649 
+ initiateService 
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO >>>> No LoadTimeWeaver setup: ignoring JPA class transformer :: 2025-03-06 11:07:43,747 
+ addTransformer 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Starting... :: 2025-03-06 11:07:43,754 
+ getConnection 
+com.zaxxer.hikari.pool.HikariPool : INFO >>>> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7bfa1eb5 :: 2025-03-06 11:07:43,781 
+ checkFailFast 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Start completed. :: 2025-03-06 11:07:43,781 
+ getConnection 
+org.hibernate.orm.connections.pooling : INFO >>>> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown :: 2025-03-06 11:07:43,807 
+ initiateService 
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO >>>> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) :: 2025-03-06 11:07:44,034 
+ initiateService 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Initialized JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:07:44,035 
+ buildNativeEntityManagerFactory 
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN >>>> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning :: 2025-03-06 11:07:44,097 
+ openEntityManagerInViewInterceptor 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat started on port 8080 (http) with context path '/' :: 2025-03-06 11:07:44,208 
+ start 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Started EmployeeManagementSystemV5Application in 1.079 seconds (process running for 1.264) :: 2025-03-06 11:07:44,211 
+ logStarted 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring DispatcherServlet 'dispatcherServlet' :: 2025-03-06 11:08:05,278 
+ log 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Initializing Servlet 'dispatcherServlet' :: 2025-03-06 11:08:05,278 
+ initServletBean 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Completed initialization in 1 ms :: 2025-03-06 11:08:05,279 
+ initServletBean 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-06 11:08:05,315 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating employee data... :: 2025-03-06 11:08:05,315 
+ saveEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> saveEmployee : EmployeeDAO :: 2025-03-06 11:08:05,322 
+ save 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> saveEmployee : EmployeeDAO :: 2025-03-06 11:08:05,322 
+ save 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-06 11:09:18,517 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating employee data... :: 2025-03-06 11:09:18,517 
+ saveEmployee 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : ERROR >>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Invalid Employee Data: [$.phoneNumber: does not match the regex pattern ^[0-9\-\+]{9,15}$]] with root cause :: 2025-03-06 11:09:18,533 
+ log 
+java.lang.IllegalArgumentException: Invalid Employee Data: [$.phoneNumber: does not match the regex pattern ^[0-9\-\+]{9,15}$]
+	at com.example.employeemanagementsystemv5.service.EmployeeService.saveEmployee(EmployeeService.java:45)
+	at com.example.employeemanagementsystemv5.controller.EmployeeController.createEmployee(EmployeeController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Commencing graceful shutdown. Waiting for active requests to complete :: 2025-03-06 11:10:14,853 
+ shutDownGracefully 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Graceful shutdown complete :: 2025-03-06 11:10:14,857 
+ doShutdown 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Closing JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:10:14,859 
+ destroy 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated... :: 2025-03-06 11:10:14,859 
+ close 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-06 11:10:14,860 
+ close 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Starting EmployeeManagementSystemV5Application using Java 23.0.2 with PID 6424 (/Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm/target/classes started by abu_mukhlef in /Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm) :: 2025-03-06 11:10:15,782 
+ logStarting 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> No active profile set, falling back to 1 default profile: "default" :: 2025-03-06 11:10:15,783 
+ logStartupProfileInfo 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Bootstrapping Spring Data JPA repositories in DEFAULT mode. :: 2025-03-06 11:10:16,005 
+ registerRepositoriesIn 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Finished Spring Data repository scanning in 5 ms. Found 0 JPA repository interfaces. :: 2025-03-06 11:10:16,014 
+ registerRepositoriesIn 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat initialized with port 8080 (http) :: 2025-03-06 11:10:16,155 
+ initialize 
+org.apache.catalina.core.StandardService : INFO >>>> Starting service [Tomcat] :: 2025-03-06 11:10:16,159 
+ log 
+org.apache.catalina.core.StandardEngine : INFO >>>> Starting Servlet engine: [Apache Tomcat/10.1.36] :: 2025-03-06 11:10:16,160 
+ log 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring embedded WebApplicationContext :: 2025-03-06 11:10:16,172 
+ log 
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO >>>> Root WebApplicationContext: initialization completed in 374 ms :: 2025-03-06 11:10:16,172 
+ prepareWebApplicationContext 
+org.hibernate.jpa.internal.util.LogHelper : INFO >>>> HHH000204: Processing PersistenceUnitInfo [name: default] :: 2025-03-06 11:10:16,207 
+ logPersistenceUnitInformation 
+org.hibernate.Version : INFO >>>> HHH000412: Hibernate ORM core version 6.6.8.Final :: 2025-03-06 11:10:16,223 
+ logVersion 
+org.hibernate.cache.internal.RegionFactoryInitiator : INFO >>>> HHH000026: Second-level cache disabled :: 2025-03-06 11:10:16,233 
+ initiateService 
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO >>>> No LoadTimeWeaver setup: ignoring JPA class transformer :: 2025-03-06 11:10:16,330 
+ addTransformer 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Starting... :: 2025-03-06 11:10:16,338 
+ getConnection 
+com.zaxxer.hikari.pool.HikariPool : INFO >>>> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7d28cdcd :: 2025-03-06 11:10:16,368 
+ checkFailFast 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Start completed. :: 2025-03-06 11:10:16,368 
+ getConnection 
+org.hibernate.orm.connections.pooling : INFO >>>> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown :: 2025-03-06 11:10:16,392 
+ initiateService 
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO >>>> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) :: 2025-03-06 11:10:16,624 
+ initiateService 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Initialized JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:10:16,625 
+ buildNativeEntityManagerFactory 
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN >>>> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning :: 2025-03-06 11:10:16,688 
+ openEntityManagerInViewInterceptor 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat started on port 8080 (http) with context path '/' :: 2025-03-06 11:10:16,802 
+ start 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Started EmployeeManagementSystemV5Application in 1.14 seconds (process running for 1.328) :: 2025-03-06 11:10:16,805 
+ logStarted 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring DispatcherServlet 'dispatcherServlet' :: 2025-03-06 11:10:42,574 
+ log 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Initializing Servlet 'dispatcherServlet' :: 2025-03-06 11:10:42,574 
+ initServletBean 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Completed initialization in 1 ms :: 2025-03-06 11:10:42,575 
+ initServletBean 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-06 11:10:42,622 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating employee data... :: 2025-03-06 11:10:42,622 
+ saveEmployee 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : ERROR >>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Invalid Employee Data: [$.phoneNumber: does not match the regex pattern ^[0-9\-\+]{9,15}$]] with root cause :: 2025-03-06 11:10:42,630 
+ log 
+java.lang.IllegalArgumentException: Invalid Employee Data: [$.phoneNumber: does not match the regex pattern ^[0-9\-\+]{9,15}$]
+	at com.example.employeemanagementsystemv5.service.EmployeeService.saveEmployee(EmployeeService.java:45)
+	at com.example.employeemanagementsystemv5.controller.EmployeeController.createEmployee(EmployeeController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-06 11:11:03,851 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating employee data... :: 2025-03-06 11:11:03,852 
+ saveEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> saveEmployee : EmployeeDAO :: 2025-03-06 11:11:03,861 
+ save 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> saveEmployee : EmployeeDAO :: 2025-03-06 11:11:03,862 
+ save 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> deleteEmployee : Controller :: 2025-03-06 11:11:15,578 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> deleteEmployee : Service :: 2025-03-06 11:11:15,579 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> deleteById : EmployeeDAO :: 2025-03-06 11:11:15,581 
+ deleteById 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Commencing graceful shutdown. Waiting for active requests to complete :: 2025-03-06 11:11:22,480 
+ shutDownGracefully 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Graceful shutdown complete :: 2025-03-06 11:11:22,484 
+ doShutdown 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Closing JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:11:22,486 
+ destroy 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated... :: 2025-03-06 11:11:22,486 
+ close 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-06 11:11:22,487 
+ close 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Starting EmployeeManagementSystemV5Application using Java 23.0.2 with PID 6520 (/Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm/target/classes started by abu_mukhlef in /Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm) :: 2025-03-06 11:15:07,813 
+ logStarting 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> No active profile set, falling back to 1 default profile: "default" :: 2025-03-06 11:15:07,813 
+ logStartupProfileInfo 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Bootstrapping Spring Data JPA repositories in DEFAULT mode. :: 2025-03-06 11:15:07,977 
+ registerRepositoriesIn 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces. :: 2025-03-06 11:15:07,983 
+ registerRepositoriesIn 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat initialized with port 8080 (http) :: 2025-03-06 11:15:08,122 
+ initialize 
+org.apache.catalina.core.StandardService : INFO >>>> Starting service [Tomcat] :: 2025-03-06 11:15:08,126 
+ log 
+org.apache.catalina.core.StandardEngine : INFO >>>> Starting Servlet engine: [Apache Tomcat/10.1.36] :: 2025-03-06 11:15:08,126 
+ log 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring embedded WebApplicationContext :: 2025-03-06 11:15:08,137 
+ log 
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO >>>> Root WebApplicationContext: initialization completed in 308 ms :: 2025-03-06 11:15:08,137 
+ prepareWebApplicationContext 
+org.hibernate.jpa.internal.util.LogHelper : INFO >>>> HHH000204: Processing PersistenceUnitInfo [name: default] :: 2025-03-06 11:15:08,168 
+ logPersistenceUnitInformation 
+org.hibernate.Version : INFO >>>> HHH000412: Hibernate ORM core version 6.6.8.Final :: 2025-03-06 11:15:08,180 
+ logVersion 
+org.hibernate.cache.internal.RegionFactoryInitiator : INFO >>>> HHH000026: Second-level cache disabled :: 2025-03-06 11:15:08,187 
+ initiateService 
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO >>>> No LoadTimeWeaver setup: ignoring JPA class transformer :: 2025-03-06 11:15:08,271 
+ addTransformer 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Starting... :: 2025-03-06 11:15:08,279 
+ getConnection 
+com.zaxxer.hikari.pool.HikariPool : INFO >>>> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@16c5b50a :: 2025-03-06 11:15:08,304 
+ checkFailFast 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Start completed. :: 2025-03-06 11:15:08,305 
+ getConnection 
+org.hibernate.orm.connections.pooling : INFO >>>> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown :: 2025-03-06 11:15:08,330 
+ initiateService 
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO >>>> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) :: 2025-03-06 11:15:08,553 
+ initiateService 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Initialized JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:15:08,554 
+ buildNativeEntityManagerFactory 
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN >>>> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning :: 2025-03-06 11:15:08,624 
+ openEntityManagerInViewInterceptor 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat started on port 8080 (http) with context path '/' :: 2025-03-06 11:15:08,733 
+ start 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Started EmployeeManagementSystemV5Application in 1.037 seconds (process running for 1.219) :: 2025-03-06 11:15:08,736 
+ logStarted 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring DispatcherServlet 'dispatcherServlet' :: 2025-03-06 11:15:25,417 
+ log 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Initializing Servlet 'dispatcherServlet' :: 2025-03-06 11:15:25,417 
+ initServletBean 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Completed initialization in 1 ms :: 2025-03-06 11:15:25,418 
+ initServletBean 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getAllEmployees : Controller :: 2025-03-06 11:15:25,445 
+ getAllEmployees 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findAllEmployees : Service :: 2025-03-06 11:15:25,445 
+ findAllEmployees 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findAllEmployees : EmployeeDAO :: 2025-03-06 11:15:25,448 
+ findAll 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findAllEmployees : EmployeeDAO :: 2025-03-06 11:15:25,448 
+ findAll 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-06 11:15:35,096 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-06 11:15:35,098 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:15:35,099 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:15:35,099 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-06 11:15:40,732 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-06 11:15:40,732 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:15:40,733 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:15:40,734 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-06 11:16:48,323 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating employee data... :: 2025-03-06 11:16:48,323 
+ saveEmployee 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : ERROR >>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Invalid Employee Data: [$.gender: does not have a value in the enumeration ["Male", "Female", "Other"]]] with root cause :: 2025-03-06 11:16:48,333 
+ log 
+java.lang.IllegalArgumentException: Invalid Employee Data: [$.gender: does not have a value in the enumeration ["Male", "Female", "Other"]]
+	at com.example.employeemanagementsystemv5.service.EmployeeService.saveEmployee(EmployeeService.java:45)
+	at com.example.employeemanagementsystemv5.controller.EmployeeController.createEmployee(EmployeeController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-06 11:17:07,799 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating employee data... :: 2025-03-06 11:17:07,800 
+ saveEmployee 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet] : ERROR >>>> Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.IllegalArgumentException: Invalid Employee Data: [$.gender: does not have a value in the enumeration ["Male", "Female", "Other"]]] with root cause :: 2025-03-06 11:17:07,802 
+ log 
+java.lang.IllegalArgumentException: Invalid Employee Data: [$.gender: does not have a value in the enumeration ["Male", "Female", "Other"]]
+	at com.example.employeemanagementsystemv5.service.EmployeeService.saveEmployee(EmployeeService.java:45)
+	at com.example.employeemanagementsystemv5.controller.EmployeeController.createEmployee(EmployeeController.java:40)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-06 11:17:14,986 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating employee data... :: 2025-03-06 11:17:14,986 
+ saveEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> saveEmployee : EmployeeDAO :: 2025-03-06 11:17:14,987 
+ save 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> saveEmployee : EmployeeDAO :: 2025-03-06 11:17:14,988 
+ save 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:17:21,753 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating updated employee data... :: 2025-03-06 11:17:21,753 
+ updateEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:17:27,589 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating updated employee data... :: 2025-03-06 11:17:27,590 
+ updateEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:17:31,790 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating updated employee data... :: 2025-03-06 11:17:31,791 
+ updateEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:17:51,339 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating updated employee data... :: 2025-03-06 11:17:51,340 
+ updateEmployee 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Commencing graceful shutdown. Waiting for active requests to complete :: 2025-03-06 11:18:08,200 
+ shutDownGracefully 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Graceful shutdown complete :: 2025-03-06 11:18:08,204 
+ doShutdown 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Closing JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:18:08,207 
+ destroy 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated... :: 2025-03-06 11:18:08,208 
+ close 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-06 11:18:08,208 
+ close 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Starting EmployeeManagementSystemV5Application using Java 23.0.2 with PID 6595 (/Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm/target/classes started by abu_mukhlef in /Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm) :: 2025-03-06 11:19:26,157 
+ logStarting 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> No active profile set, falling back to 1 default profile: "default" :: 2025-03-06 11:19:26,157 
+ logStartupProfileInfo 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Bootstrapping Spring Data JPA repositories in DEFAULT mode. :: 2025-03-06 11:19:26,341 
+ registerRepositoriesIn 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces. :: 2025-03-06 11:19:26,349 
+ registerRepositoriesIn 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat initialized with port 8080 (http) :: 2025-03-06 11:19:26,490 
+ initialize 
+org.apache.catalina.core.StandardService : INFO >>>> Starting service [Tomcat] :: 2025-03-06 11:19:26,495 
+ log 
+org.apache.catalina.core.StandardEngine : INFO >>>> Starting Servlet engine: [Apache Tomcat/10.1.36] :: 2025-03-06 11:19:26,495 
+ log 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring embedded WebApplicationContext :: 2025-03-06 11:19:26,507 
+ log 
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO >>>> Root WebApplicationContext: initialization completed in 334 ms :: 2025-03-06 11:19:26,507 
+ prepareWebApplicationContext 
+org.hibernate.jpa.internal.util.LogHelper : INFO >>>> HHH000204: Processing PersistenceUnitInfo [name: default] :: 2025-03-06 11:19:26,540 
+ logPersistenceUnitInformation 
+org.hibernate.Version : INFO >>>> HHH000412: Hibernate ORM core version 6.6.8.Final :: 2025-03-06 11:19:26,555 
+ logVersion 
+org.hibernate.cache.internal.RegionFactoryInitiator : INFO >>>> HHH000026: Second-level cache disabled :: 2025-03-06 11:19:26,564 
+ initiateService 
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO >>>> No LoadTimeWeaver setup: ignoring JPA class transformer :: 2025-03-06 11:19:26,663 
+ addTransformer 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Starting... :: 2025-03-06 11:19:26,671 
+ getConnection 
+com.zaxxer.hikari.pool.HikariPool : INFO >>>> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@43c0c13a :: 2025-03-06 11:19:26,698 
+ checkFailFast 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Start completed. :: 2025-03-06 11:19:26,699 
+ getConnection 
+org.hibernate.orm.connections.pooling : INFO >>>> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown :: 2025-03-06 11:19:26,725 
+ initiateService 
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO >>>> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) :: 2025-03-06 11:19:26,955 
+ initiateService 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Initialized JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:19:26,956 
+ buildNativeEntityManagerFactory 
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN >>>> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning :: 2025-03-06 11:19:27,019 
+ openEntityManagerInViewInterceptor 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat started on port 8080 (http) with context path '/' :: 2025-03-06 11:19:27,132 
+ start 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Started EmployeeManagementSystemV5Application in 1.1 seconds (process running for 1.288) :: 2025-03-06 11:19:27,137 
+ logStarted 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring DispatcherServlet 'dispatcherServlet' :: 2025-03-06 11:19:44,734 
+ log 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Initializing Servlet 'dispatcherServlet' :: 2025-03-06 11:19:44,735 
+ initServletBean 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Completed initialization in 0 ms :: 2025-03-06 11:19:44,735 
+ initServletBean 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> deleteEmployee : Controller :: 2025-03-06 11:19:44,766 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Deleting employee with ID: 9 :: 2025-03-06 11:19:44,766 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:19:44,769 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:19:44,769 
+ findById 
+com.example.employeemanagementsystemv5.service.EmployeeService : ERROR >>>> deleteEmployee : Employee with ID 9 not found :: 2025-03-06 11:19:44,787 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> deleteEmployee : Controller :: 2025-03-06 11:19:50,320 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Deleting employee with ID: 10 :: 2025-03-06 11:19:50,321 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:19:50,323 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:19:50,323 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> deleteById : EmployeeDAO :: 2025-03-06 11:19:50,348 
+ deleteById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:20:04,305 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating updated employee data... :: 2025-03-06 11:20:04,306 
+ updateEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:20:10,066 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating updated employee data... :: 2025-03-06 11:20:10,066 
+ updateEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:21:11,242 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Validating updated employee data... :: 2025-03-06 11:21:11,243 
+ updateEmployee 
+com.zaxxer.hikari.pool.HikariPool : WARN >>>> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m43s807ms). :: 2025-03-06 11:28:10,620 
+ run 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Commencing graceful shutdown. Waiting for active requests to complete :: 2025-03-06 11:29:10,027 
+ shutDownGracefully 
+org.springframework.boot.web.embedded.tomcat.GracefulShutdown : INFO >>>> Graceful shutdown complete :: 2025-03-06 11:29:10,031 
+ doShutdown 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Closing JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:29:10,034 
+ destroy 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown initiated... :: 2025-03-06 11:29:10,034 
+ close 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Shutdown completed. :: 2025-03-06 11:29:10,035 
+ close 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Starting EmployeeManagementSystemV5Application using Java 23.0.2 with PID 6722 (/Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm/target/classes started by abu_mukhlef in /Users/abu_mukhlef/Documents/GitHub/Task_5_FOR_Elm) :: 2025-03-06 11:29:11,264 
+ logStarting 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> No active profile set, falling back to 1 default profile: "default" :: 2025-03-06 11:29:11,264 
+ logStartupProfileInfo 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Bootstrapping Spring Data JPA repositories in DEFAULT mode. :: 2025-03-06 11:29:11,451 
+ registerRepositoriesIn 
+org.springframework.data.repository.config.RepositoryConfigurationDelegate : INFO >>>> Finished Spring Data repository scanning in 4 ms. Found 0 JPA repository interfaces. :: 2025-03-06 11:29:11,459 
+ registerRepositoriesIn 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat initialized with port 8080 (http) :: 2025-03-06 11:29:11,598 
+ initialize 
+org.apache.catalina.core.StandardService : INFO >>>> Starting service [Tomcat] :: 2025-03-06 11:29:11,602 
+ log 
+org.apache.catalina.core.StandardEngine : INFO >>>> Starting Servlet engine: [Apache Tomcat/10.1.36] :: 2025-03-06 11:29:11,602 
+ log 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring embedded WebApplicationContext :: 2025-03-06 11:29:11,614 
+ log 
+org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext : INFO >>>> Root WebApplicationContext: initialization completed in 328 ms :: 2025-03-06 11:29:11,614 
+ prepareWebApplicationContext 
+org.hibernate.jpa.internal.util.LogHelper : INFO >>>> HHH000204: Processing PersistenceUnitInfo [name: default] :: 2025-03-06 11:29:11,649 
+ logPersistenceUnitInformation 
+org.hibernate.Version : INFO >>>> HHH000412: Hibernate ORM core version 6.6.8.Final :: 2025-03-06 11:29:11,663 
+ logVersion 
+org.hibernate.cache.internal.RegionFactoryInitiator : INFO >>>> HHH000026: Second-level cache disabled :: 2025-03-06 11:29:11,673 
+ initiateService 
+org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo : INFO >>>> No LoadTimeWeaver setup: ignoring JPA class transformer :: 2025-03-06 11:29:11,771 
+ addTransformer 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Starting... :: 2025-03-06 11:29:11,779 
+ getConnection 
+com.zaxxer.hikari.pool.HikariPool : INFO >>>> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6eabe718 :: 2025-03-06 11:29:11,807 
+ checkFailFast 
+com.zaxxer.hikari.HikariDataSource : INFO >>>> HikariPool-1 - Start completed. :: 2025-03-06 11:29:11,807 
+ getConnection 
+org.hibernate.orm.connections.pooling : INFO >>>> HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.17
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown :: 2025-03-06 11:29:11,835 
+ initiateService 
+org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator : INFO >>>> HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration) :: 2025-03-06 11:29:12,064 
+ initiateService 
+org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : INFO >>>> Initialized JPA EntityManagerFactory for persistence unit 'default' :: 2025-03-06 11:29:12,065 
+ buildNativeEntityManagerFactory 
+org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration : WARN >>>> spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning :: 2025-03-06 11:29:12,128 
+ openEntityManagerInViewInterceptor 
+org.springframework.boot.web.embedded.tomcat.TomcatWebServer : INFO >>>> Tomcat started on port 8080 (http) with context path '/' :: 2025-03-06 11:29:12,239 
+ start 
+com.example.employeemanagementsystemv5.EmployeeManagementSystemV5Application : INFO >>>> Started EmployeeManagementSystemV5Application in 1.101 seconds (process running for 1.289) :: 2025-03-06 11:29:12,244 
+ logStarted 
+org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : INFO >>>> Initializing Spring DispatcherServlet 'dispatcherServlet' :: 2025-03-06 11:29:27,843 
+ log 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Initializing Servlet 'dispatcherServlet' :: 2025-03-06 11:29:27,844 
+ initServletBean 
+org.springframework.web.servlet.DispatcherServlet : INFO >>>> Completed initialization in 1 ms :: 2025-03-06 11:29:27,845 
+ initServletBean 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getAllEmployees : Controller :: 2025-03-06 11:29:27,871 
+ getAllEmployees 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findAllEmployees : Service :: 2025-03-06 11:29:27,872 
+ findAllEmployees 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findAllEmployees : EmployeeDAO :: 2025-03-06 11:29:27,874 
+ findAll 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findAllEmployees : EmployeeDAO :: 2025-03-06 11:29:27,874 
+ findAll 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-06 11:29:35,036 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-06 11:29:35,036 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:29:35,037 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:29:35,038 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-06 11:29:39,633 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-06 11:29:39,633 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:29:39,635 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:29:39,635 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-06 11:29:44,285 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-06 11:29:44,285 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:29:44,286 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:29:44,287 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-06 11:29:47,049 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-06 11:29:47,050 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:29:47,051 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:29:47,052 
+ findById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> createEmployee : Controller :: 2025-03-06 11:29:56,790 
+ createEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> saveEmployee : Service :: 2025-03-06 11:29:56,791 
+ saveEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> saveEmployee : EmployeeDAO :: 2025-03-06 11:29:56,797 
+ save 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> saveEmployee : EmployeeDAO :: 2025-03-06 11:29:56,798 
+ save 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:30:03,759 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> updateEmployee : Service :: 2025-03-06 11:30:03,760 
+ updateEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> updateEmployee : Controller :: 2025-03-06 11:30:09,845 
+ updateEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> updateEmployee : Service :: 2025-03-06 11:30:09,845 
+ updateEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> deleteEmployee : Controller :: 2025-03-06 11:30:15,019 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Deleting employee with ID: 10 :: 2025-03-06 11:30:15,020 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:30:15,021 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:30:15,023 
+ findById 
+com.example.employeemanagementsystemv5.service.EmployeeService : ERROR >>>> deleteEmployee : Employee with ID 10 not found :: 2025-03-06 11:30:15,025 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> deleteEmployee : Controller :: 2025-03-06 11:30:21,490 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> Deleting employee with ID: 6 :: 2025-03-06 11:30:21,491 
+ deleteEmployee 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:30:21,491 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:30:21,492 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> deleteById : EmployeeDAO :: 2025-03-06 11:30:21,496 
+ deleteById 
+com.example.employeemanagementsystemv5.controller.EmployeeController : INFO >>>> getEmployeeById : Controller :: 2025-03-06 11:30:31,174 
+ getEmployeeById 
+com.example.employeemanagementsystemv5.service.EmployeeService : INFO >>>> findEmployeeById : Service :: 2025-03-06 11:30:31,174 
+ findEmployeeById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : INFO >>>> findById : EmployeeDAO :: 2025-03-06 11:30:31,175 
+ findById 
+com.example.employeemanagementsystemv5.repository.EmployeeDAO : DEBUG >>>> findById : EmployeeDAO :: 2025-03-06 11:30:31,176 
+ findById 

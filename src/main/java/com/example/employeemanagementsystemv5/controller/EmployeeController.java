@@ -1,6 +1,6 @@
 package com.example.employeemanagementsystemv5.controller;
 
-import com.example.employeemanagementsystemv5.common.exception.EmployeeNotFoundException;
+import com.example.employeemanagementsystemv5.common.EmployeeNotFoundException;
 import com.example.employeemanagementsystemv5.repository.Employees;
 import com.example.employeemanagementsystemv5.service.EmployeeService;
 import org.slf4j.Logger;
